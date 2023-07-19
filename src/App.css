@@ -1,0 +1,461 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 0.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+/* ================ container ============ */
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.line {
+  width: 100px;
+  height: 1px;
+  background: #535353;
+}
+
+/* =========== nav section start here =========== */
+#nav {
+  background: rgba(0, 0, 0, 0.44);
+  padding: 34px 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.menuArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {}
+
+.menu ul {
+  display: flex;
+  column-gap: 40px;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  transition: all linear 0.3s;
+}
+
+.menu ul li a:hover {
+  color: #28b8d8;
+}
+
+/* =========== nav section end here =========== */
+
+
+/* =========== banner section start here =========== */
+
+#banner {
+  background: url(../public/assests/images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 333px;
+  padding-bottom: 254px;
+}
+
+.bannerArea {
+  text-align: center;
+  color: #fff;
+}
+
+.bannerArea h1 {
+  font-family: 'roboto', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 22px;
+}
+
+.bannerArea h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+  font-weight: 300;
+  padding-bottom: 22px;
+  letter-spacing: 9px;
+}
+
+/* =========== banner section end here =========== */
+
+
+/* =========== service section start here =========== */
+#service {
+  padding: 82px 0px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.serviceHeading h2 {
+  padding-bottom: 32px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #444444;
+  line-height: 1.5;
+}
+
+.serviceHeading p {
+  padding-bottom: 82px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+}
+
+.headingAll h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #444;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.imageMain {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageArea {
+  width: 370px;
+  border: 1px solid #e3e3e3;
+  padding: 24px 17px;
+  margin-top: 30px;
+}
+
+.image {
+  height: 225px;
+  width: 100%;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.serviceTitle h3 {
+  padding-top: 24px;
+  padding-bottom: 20px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #444;
+}
+
+.serviceTitle p {
+  line-height: 24px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+}
+
+/* =========== service section end here =========== */
+
+/* =========== social section start here =========== */
+#social {
+  padding: 50px 0;
+  background: #2c2c2c;
+}
+
+#social .headingAll h3 {
+  color: #d5d5d5;
+}
+
+.socialHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.socialImageMain {
+  padding-top: 43px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.socialLink {
+  text-align: center;
+}
+
+.socialLink a {
+  border: 1px ridge #797979;
+  color: #8e8e8e;
+  text-decoration: none;
+  text-align: center;
+  padding: 18px 20px;
+  text-transform: uppercase;
+}
+
+.socialLink a i {
+  margin-right: 5px;
+}
+
+/* =========== social section end here =========== */
+
+
+/* =========== journal section start here =========== */
+#journal {
+  padding-top: 50px;
+}
+
+#journal .headingAll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #444444;
+}
+
+#journal .headingAll .line {
+  background: #d9d9d9;
+}
+
+.journalImageMainArea {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.journalImageAria {
+  width: 368px;
+  border: 1px solid #e3e3e3;
+  padding-top: 26px;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+.journalImageAria img {
+  width: 100%;
+  padding-top: 24px;
+  padding-bottom: 28px;
+}
+
+.journalHeading {
+  text-align: center;
+}
+
+.journalHeading h3 {
+  padding-bottom: 14px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 17px;
+
+}
+
+.journalHeading p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #999999;
+}
+
+.journalHeading .journalDescription {
+  text-align: justify;
+  padding: 0 30px;
+  padding-bottom: 27px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+  line-height: 1.2;
+}
+
+.contRead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  color: #999;
+}
+.contRead p:nth-child(1) {
+  border-bottom: 1px solid #28b8d8;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  
+}
+
+/* =========== journal section end here =========== */
+
+
+/* =========== about section start here =========== */
+#about{
+  padding: 80px 0;
+}
+.aboutMeMain{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+}
+.aboutHeadingMain{
+  display: flex;
+  width: 100%;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #444;
+}
+.aboutHeading{
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.headingMyService{
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.aboutHeading .line, .headingMyService .line{
+  margin-left: 15px;
+}
+.aboutMe{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+.aboutMeImage{
+  padding-right: 30px;
+}
+.aboutMeDescription{
+  padding-right: 44px;
+}
+.aboutMeDescription p:nth-child(1){
+  padding-bottom: 30px;
+  font-family: 'Roboto Slab', serif;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;
+  color: #666666;
+  line-height: 1.4;
+}
+.aboutMeDescription p:nth-child(2){
+  padding-bottom: 30px;
+  font-family: 'Roboto', Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+  line-height: 1.2;
+}
+.myService{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.serviceFlex{
+  display: flex;
+  padding-bottom: 30px;
+}
+.serviceFlex h3{
+  font-family: 'Roboto Slab', serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #444444;
+}
+.serviceFlex p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+  line-height: 1.2;
+}
+.serviceImage{
+  padding-right: 25px;
+}
+.serviceDescription h3{
+  padding-bottom: 22px;
+}
+/* =========== about section end here =========== */
+/* =========== contact section start here =========== */
+#contact{
+  background: #373737;
+  padding: 70px 0;
+}
+.contactMain{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 30px;
+}
+.contactItem{
+
+}
+.contactItem h3{
+  color: #f0f0f0;
+  padding-bottom: 27px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+
+}
+.contactItem p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #cacaca;
+}
+.contactItem p i{
+margin-right: 5px;
+}
+/* =========== contact section end here =========== */
+
+.footer{
+  background: #333333;
+  color: #cacaca;
+  padding: 40px 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
